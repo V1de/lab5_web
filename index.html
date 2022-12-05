@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Laboratory work 5">
+	<meta name="keywords" content="lab,web">
+    <title>Дерачиц Віталій Віталійович, ІB-91, Лабораторна 5, Варіант 26</title>
+	<link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Форма для заповнення</h2>
+      <form name="form" class="form" onsubmit="return validateFormData()">
+          <label for="fullName">ПІБ:</label>
+          <input type="text" id="fullName" name="fullName">
+          <label for="phone">Телефон:</label>
+          <input type="text" id="phone" name="phone">
+          <label for="faculty">Факультет:</label>
+          <input type="text" id="faculty" name="faculty">
+          <label for="date">Дата народження:</label>
+          <input type="text" id="date" name="date">
+          <label for="adress">Адреса:</label>
+          <input type="text" id="adress" name="adress">
+          <button type="submit">Підтвердити</button>
+      </form>
+    </div>
+
+    <div class="task2">
+      <input type="color" id="colorpicker" value="#0000ff">
+      <table id="table"></table>
+    </div>
+    
+    
+	<script src="script.js"></script>
+</body>
+</html>
